@@ -4,7 +4,7 @@ A personal site that introduces me as a builder — dark mode, purple neon, glas
  
 ## Description
  
-This is my Builder page, made for the Pixl "Raise your Builder Page" trial. It's a single-page site with a bit of an attitude to it — dark background, glowing purple/magenta accents, glassmorphism cards, and a handful of scroll and hover animations that I put together by hand instead of pulling in a framework. The two things I'm proudest of, a BCI-driven wheelchair and a Jarvis-style assistant, get their own featured spots near the top, and there's a "More builds" section below that pulls from my GitHub and is built to grow — every time I ship something new, I just drop it into a list in `script.js` and it shows up as a card, no extra HTML needed. No React, no build step, nothing to install — it's plain HTML, CSS and JS that you can open straight in a browser.
+This is my Builder page, made for the Pixl "Raise your Builder Page" trial. It's a single-page site with a bit of an attitude to it — dark background, glowing purple/magenta accents, glassmorphism cards, and a handful of scroll and hover animations. The two things I'm proudest of, a BCI-driven wheelchair and a Jarvis-style assistant, get their own featured spots near the top, and there's a "More builds" section below that pulls from my GitHub and is built to grow — every time I ship something new, I just drop it into a list in `script.js` and it shows up as a card, no extra HTML needed. No React, no build step, nothing to install — it's plain HTML, CSS and JS that you can open straight in a browser.
  
 ## Screenshots
  
