@@ -31,7 +31,6 @@ body{
   position: relative;
 }
 
-/* ambient neon field */
 .field{
   position: fixed;
   inset: 0;
@@ -58,7 +57,6 @@ main{ position: relative; z-index: 2; }
 
 a{ color: inherit; }
 
-/* scroll progress */
 .progress{
   position: fixed;
   top: 0; left: 0;
@@ -70,7 +68,6 @@ a{ color: inherit; }
   transition: width 0.08s linear;
 }
 
-/* cursor glow */
 .cursor-glow{
   position: fixed;
   top: 0; left: 0;
@@ -97,7 +94,6 @@ a{ color: inherit; }
 
 ::selection{ background: rgba(155,92,255,0.35); color: #fff; }
 
-/* focus visibility */
 a:focus-visible, button:focus-visible{
   outline: 2px solid var(--violet-2);
   outline-offset: 3px;
@@ -110,7 +106,6 @@ a:focus-visible, button:focus-visible{
   padding: 0 28px;
 }
 
-/* ---------- NAV ---------- */
 nav{
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -146,7 +141,6 @@ nav{
   background: rgba(155,92,255,0.14);
 }
 
-/* ---------- HERO ---------- */
 .hero{
   min-height: 100svh;
   display: flex;
@@ -262,7 +256,6 @@ nav{
   100%{ transform: scaleY(0); transform-origin: bottom; }
 }
 
-/* ---------- SECTION SHARED ---------- */
 section{
   padding: 120px 0;
   position: relative;
@@ -290,7 +283,6 @@ h2{
   transform: translateY(0);
 }
 
-/* ---------- ABOUT ---------- */
 .about-grid{
   display: grid;
   grid-template-columns: 1.3fr 1fr;
@@ -326,7 +318,6 @@ h2{
   margin-top: 4px;
 }
 
-/* ---------- FEATURED PROJECT ---------- */
 .feature-card{
   position: relative;
   border-radius: 24px;
@@ -384,7 +375,6 @@ h2{
   filter: drop-shadow(0 0 6px rgba(255,92,214,0.9));
 }
 
-/* jarvis HUD visual */
 .hud-svg{ width: 72%; height: auto; }
 .hud-ring{
   fill: none;
@@ -474,7 +464,6 @@ h2{
   transform: translateY(-2px);
 }
 
-/* ---------- MORE BUILDS (GITHUB SHOWCASE) ---------- */
 .project-grid{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -553,7 +542,6 @@ h2{
   justify-content: center;
 }
 
-/* ---------- BUILD LOG / STACK ---------- */
 .stack-row{
   display: flex;
   flex-wrap: wrap;
@@ -589,7 +577,6 @@ h2{
   font-weight: 600;
 }
 
-/* ---------- CONTACT ---------- */
 .contact-card{
   border-radius: 24px;
   padding: 60px 50px;
