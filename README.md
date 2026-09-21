@@ -8,7 +8,7 @@ This is my Builder page, made for the Pixl "Raise your Builder Page" trial. It's
  
 ## Screenshots
  
-(screenshot.png)
+![App Screenshot](screenshot.png)
  
 
  
