@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hrishikesh T Hemanth — Builder</title>
+<meta name="description" content="Hrishikesh T Hemanth — builds at the edge of hardware and software, neuroscience and robotics.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+<div class="field" id="field"></div>
+<div class="noise"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<nav>
+  <div class="nav-pill">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#stack">Stack</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main>
+
+  <section class="hero wrap">
+    <p class="hero-kicker"><span class="dot"></span>Kerala, India — currently building</p>
+    <h1>
+      <span class="word-mask"><span class="word" style="animation-delay:0.25s">Hrishikesh</span></span>
+      <span class="word-mask"><span class="word" style="animation-delay:0.38s">T</span></span>
+      <span class="word-mask"><span class="word" style="animation-delay:0.5s">Hemanth</span></span>
+    </h1>
+    <p class="lede">I build things to satisfy my own curiosity — mostly <strong>hardware</strong> wired up to <strong>software</strong>, until the two start talking to each other.</p>
+    <div class="hero-meta">
+      <span class="chip">Neuroscience × Robotics</span>
+      <span class="chip">Embedded systems</span>
+      <span class="chip">Python / JS / HTML / CSS</span>
+    </div>
+    <div class="scroll-cue"><span>SCROLL</span><span class="line"></span></div>
+  </section>
+
+  <section id="about" class="wrap">
+    <p class="eyebrow reveal">Who's building?</p>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm a builder from Kerala, India, who ends up taking things apart to see what's underneath — sometimes literally. My projects sit at the point where an idea stops being software and starts needing a soldering iron.</p>
+        <p>I work across both worlds: <em>HTML and CSS on the front end</em>, <em>Python and JavaScript underneath</em>, driving whatever hardware the project actually needs. Software gets an idea running. Hardware is what makes it real — and that's the part I keep coming back to.</p>
+        <p>Most of what I make starts as a question I can't stop thinking about, not a spec someone handed me.</p>
+      </div>
+      <div class="reveal">
+        <div class="stat-card">
+          <div class="num">Hardware‑first</div>
+          <div class="label">favourite half of any stack</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">BCI + Robotics</div>
+          <div class="label">current focus area</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">2 major builds</div>
+          <div class="label">neuro‑wheelchair &amp; Jarvis</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="wrap">
+    <h2 class="reveal">Two ideas that turned into working systems</h2>
+
+    <div class="feature-card reveal" id="tiltCard1">
+      <div class="feature-inner">
+        <div class="feature-visual" id="signalVisual">
+          <svg class="signal-svg" viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg">
+            <path class="signal-path" d="M5,90 L35,90 L45,40 L60,140 L75,60 L90,110 L105,90 L140,90 L155,50 L170,130 L185,70 L200,100 L215,90 L255,90" />
+            <circle class="node" cx="45" cy="40" r="4"/>
+            <circle class="node" cx="155" cy="50" r="4"/>
+            <circle class="node" cx="200" cy="100" r="4"/>
+          </svg>
+        </div>
+        <div class="feature-text">
+          <span class="feature-tag">Brain–computer interface</span>
+          <h3>Neuro‑controlled wheelchair</h3>
+          <p>My major build so far: reading live signals straight from the neurons and using them to drive a wheelchair in real time, with no perceptible latency between intent and motion. It's the project that pulled neuroscience and robotics onto the same bench for me — signal acquisition, filtering, and control logic all having to work together fast enough to feel instant.</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="feature-card alt reveal" id="tiltCard2">
+      <div class="feature-inner">
+        <div class="feature-visual" id="jarvisVisual">
+          <svg class="hud-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <circle class="hud-ring r1" cx="100" cy="100" r="80"/>
+            <circle class="hud-ring r2" cx="100" cy="100" r="62"/>
+            <circle class="hud-ring r3" cx="100" cy="100" r="44"/>
+            <circle class="hud-core" cx="100" cy="100" r="5"/>
+            <g>
+              <rect class="hud-bar" x="70" y="150" width="5" height="26" style="animation-delay:0s"/>
+              <rect class="hud-bar" x="82" y="140" width="5" height="36" style="animation-delay:0.15s"/>
+              <rect class="hud-bar" x="94" y="150" width="5" height="26" style="animation-delay:0.3s"/>
+              <rect class="hud-bar" x="106" y="135" width="5" height="41" style="animation-delay:0.1s"/>
+              <rect class="hud-bar" x="118" y="146" width="5" height="30" style="animation-delay:0.25s"/>
+              <rect class="hud-bar" x="130" y="150" width="5" height="26" style="animation-delay:0.4s"/>
+            </g>
+          </svg>
+        </div>
+        <div class="feature-text">
+          <span class="feature-tag">Personal AI assistant</span>
+          <h3>Jarvis</h3>
+          <p>A voice‑driven assistant built to run my own workflow — listening, reasoning, and acting on commands the way you'd expect from the movies, minus the fictional budget. Python handles the core logic and control, with a lightweight HTML/JS front end as the interface layer on top.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="wrap">
+    <h2 class="reveal">Software gets it running. Hardware makes it real.</h2>			
+    <div class="split">
+      <div class="reveal">
+        <h4>Frontend</h4>
+        <div class="stack-row">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <h4>Backend & Control</h4>
+        <div class="stack-row">
+          <span class="tag">Python</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Embedded / Robotics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+<br>
+<br>
+  <section id="contact" class="wrap">
+    <div class="contact-card reveal">
+      <h2>Let's talk builds</h2>
+      <p>Open to conversations about hardware, neurotech, or whatever odd idea is currently taking over my bench.</p>
+      <div class="contact-links">
+        <a href="mailto:hrishikesht599@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3 6.5l9 6.5 9-6.5"/></svg>
+          hrishikesht599@gmail.com
+        </a>
+        <a href="https://instagram.com/its.me_hrishi" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+          its.me_hrishi
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>Built by Hrishikesh T Hemanth — Kerala, India.</footer>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
